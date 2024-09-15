@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav1 {
+    background: #3d3636;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.nav1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav1 ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav1 ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2 {
+    color: #333;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container1-table {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f9d342;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style untuk baris pertama tabel */
+td:first-child {
+    font-weight: bold;
+    width: 30%;
+    color: #555;
+}
+
+/* Style untuk gambar */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.table1 {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.table1 td {
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.table1 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style untuk baris pertama tabel */
+.table1 td:first-child {
+    font-weight: bold;
+    width: 30%;
+    color: #555;
+}
+
+/* Style untuk gambar */
+.img1 {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 30px;
+}

@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* 
+h2 {
+    color: #333;
+    padding-top: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.container1-table {
+    padding: 20px;
+} */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer a {
+    color: #f9d342;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+  .card-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card {
+    /* background: linear-gradient(135deg, #f9a8d4, #fbcfe8); */
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgb(188, 188, 188);;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    background: #ffffff;
+    padding: 1rem;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+.card-header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.card-body {
+    padding: 1rem;
+    color: #333;
+}
+
+.card-footer {
+    background: #ffffff;
+    padding: 1rem;
+    /* border-top: 1px solid #ddd; */
+}
+
+.btn {
+    background: #f9a8d4;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #f77f7f;
+}
+.card-image{
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home {
+    background-image: url('home2.jpg');
+    background-size: cover; /* Menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Tidak mengulang gambar */
+    height: 100vh; 
+    width: 100%;
+    align-items: center ;
+}
+.main-text {
+    color: white;
+    font-size: 4rem;
+}
+.link-artikel {
+    color: #fff;
+    text-decoration: none;
+}
